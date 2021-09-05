@@ -7,8 +7,8 @@ resource myazSQLserv 'Microsoft.Sql/servers@2020-02-02-preview' = {
     type: 'SystemAssigned'
   }
   properties: {
-    administratorLogin: 'adminuser'
-    administratorLoginPassword: 'BigData@09031986'
+    administratorLogin: ''
+    administratorLoginPassword: ''
     publicNetworkAccess: 'Enabled'
     
 }
