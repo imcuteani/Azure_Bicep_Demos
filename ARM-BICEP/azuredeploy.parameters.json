@@ -12,10 +12,10 @@
       "value": "swiftehgroup"
     },
     "sqlAdministratorLogin": {
-      "value": "adminuser"
+      "value": "sqladminusername"
     },
     "sqlAdministratorLoginPassword": {
-      "value": "BigData257!"
+      "value": "sqladminpassword"
     },
     "transparentDataEncryption": {
       "value": "Enabled"
