@@ -1,7 +1,6 @@
-// Create Azure Container resources using Bicep
 
 resource myAZACRStorage 'Microsoft.Storage/storageAccounts@2019-04-01' = {
-  name: 'acrdemoanistorage'
+  name: 'acrdemostorage'
   location: 'southeast asia'
   sku: {
     name: 'Standard_LRS'

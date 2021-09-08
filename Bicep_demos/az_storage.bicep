@@ -1,5 +1,6 @@
+
 resource myAZStorage 'Microsoft.Storage/storageAccounts@2019-04-01' = {
-  name: 'acrdemostorage'
+  name: 'acrdemoanistorage'
   location: 'southeast asia'
   sku: {
     name: 'Standard_LRS'
@@ -13,3 +14,5 @@ resource myAZStorage 'Microsoft.Storage/storageAccounts@2019-04-01' = {
   }
   kind: 'StorageV2'
 }
+
+output storageId string = myAZStorage.id
