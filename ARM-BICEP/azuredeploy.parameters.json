@@ -1,0 +1,35 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namespaceName": {
+      "value": "swiftanalyticseh"
+    },
+    "eventHubName": {
+      "value": "swiftehdemo"
+    },
+    "consumerGroupName": {
+      "value": "swiftehgroup"
+    },
+    "sqlAdministratorLogin": {
+      "value": "adminuser"
+    },
+    "sqlAdministratorLoginPassword": {
+      "value": "BigData257!"
+    },
+    "transparentDataEncryption": {
+      "value": "Enabled"
+    },
+    "streamAnalyticsJobName": {
+      "value": "swift-Ingest-Prod1"
+    },
+    "streamAnalyticsJobName2": {
+      "value": "swift-Ingest-Prod2"
+    },
+    "numberOfStreamingUnits": {
+      "value": 1
+    }
+
+
+  }
+}
